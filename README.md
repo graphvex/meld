@@ -1,6 +1,6 @@
 # meld — the renderer
 
-> Nothing is implemented yet. Work order: [MANIFEST.md](MANIFEST.md). Laws: [meld-preferences.md](meld-preferences.md).
+> Nothing is implemented yet. Work order: `_notes/ideas/meld/MANIFEST.md`. Laws: [meld-preferences.md](meld-preferences.md).
 
 meld renders 2D and 3D scenes: coordinates, spaces and portals, entities, materials (albedo, normal, ORM, emissive, height), terrain, procedural worlds. It is **retained**: the scene and its GPU buffers persist, and each frame uploads only what changed. Its output is a `SceneImage` that collage places as a rect.
 
